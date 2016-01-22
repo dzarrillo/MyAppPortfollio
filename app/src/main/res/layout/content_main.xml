@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.dzartek.myappportfollio.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/mainTitle"
+        android:id="@+id/textViewTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/activity_vertical_margin" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spotifystreamer"
+        android:id="@+id/btnSpotifyStreamer"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:minWidth="197dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:background="@color/orange"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scores_app"
+        android:id="@+id/btnScoresApp"
+        android:background="@color/orange"
+        android:layout_below="@+id/btnSpotifyStreamer"
+        android:layout_alignLeft="@+id/btnSpotifyStreamer"
+        android:layout_alignStart="@+id/btnSpotifyStreamer"
+        android:padding="10dp"
+        android:minWidth="197dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/library_app"
+        android:id="@+id/btnLibraryApp"
+        android:layout_below="@id/btnScoresApp"
+        android:layout_alignLeft="@id/btnScoresApp"
+        android:layout_alignStart="@id/btnScoresApp"
+        android:background="@color/orange"
+        android:padding="10dp"
+        android:minWidth="197dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/build_it_bigger"
+        android:id="@+id/btnBuildItBigger"
+        android:layout_below="@+id/btnLibraryApp"
+        android:layout_alignLeft="@+id/btnLibraryApp"
+        android:layout_alignStart="@+id/btnLibraryApp"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:minWidth="197dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:background="@color/orange"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xyz_reader"
+        android:id="@+id/btnXyzReader"
+        android:layout_below="@+id/btnBuildItBigger"
+        android:layout_alignLeft="@+id/btnBuildItBigger"
+        android:layout_alignStart="@+id/btnBuildItBigger"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:minWidth="197dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:background="@color/orange"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone_my_app"
+        android:id="@+id/btnCapstone"
+        android:layout_below="@+id/btnXyzReader"
+        android:layout_alignLeft="@+id/btnBuildItBigger"
+        android:layout_alignStart="@+id/btnBuildItBigger"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:minWidth="197dp"
+        android:background="@color/colorAccent"/>
+</RelativeLayout>
