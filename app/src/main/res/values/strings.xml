@@ -2,8 +2,8 @@
     <string name="app_name">My App Portfollio</string>
     <string name="action_settings">Settings</string>
     <string name="mainTitle">My Nanodegree Apps!</string>
-    <string name="spotifystreamer">SPOTIFY STREAMER</string>
-    <string name="scores_app">SCORES APP</string>
+    <string name="spotifystreamer">Movie List</string>
+    <string name="scores_app">Stockhawk</string>
     <string name="library_app">LIBRARY APP</string>
     <string name="build_it_bigger">BUILD IT BIGGER</string>
     <string name="xyz_reader">XYZ READER</string>
